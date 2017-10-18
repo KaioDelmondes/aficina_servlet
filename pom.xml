@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>kaio.delmondes</groupId>
-  <artifactId>oficina_servlet</artifactId>
+  <artifactId>aficina_servlet</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>oficina_servlet Maven Webapp</name>
@@ -20,9 +20,16 @@
 		<artifactId>javax.servlet-api</artifactId>
 		<version>3.1.0</version>
 		<scope>provided</scope>
-	</dependency> 
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/co.ntier/spring-mvc-archetype -->
+<dependency>
+    <groupId>co.ntier</groupId>
+    <artifactId>spring-mvc-archetype</artifactId>
+    <version>1.0.2</version>
+</dependency>
+	
   </dependencies>
   <build>
-    <finalName>oficina_servlet</finalName>
+    <finalName>aficina_servlet</finalName>
   </build>
 </project>
