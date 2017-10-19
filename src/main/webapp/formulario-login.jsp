@@ -9,7 +9,7 @@
 <h2>Olá! Seja Bem vindo ao Sistema de Login Baseado em Servlets!</h2>
 <form method ="post" action="login">
 Email: <input name="email" type="text"><br>
-Senha: <input name="senha" type="password"><br><br>
+Senha: <input name="senha" type="text"><br><br>
 <button type="submit">Logar</button>
 </form>
 </body>

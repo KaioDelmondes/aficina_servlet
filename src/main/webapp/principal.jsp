@@ -13,7 +13,7 @@
 	out.println("O email: " + email + " é reconhecido pelo sistema e sua sessão de usuário foi iniciada!");
 	%>
 	<br><br>
-	<a href="formulario-login.jsp">
+	<a href="sair">
 		<button>Logout</button>
 	</a>
 </body>

@@ -10,6 +10,12 @@
   	<servlet-class>servicos.Principal</servlet-class>
   </servlet>
   <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description>Termina a sessão do Usuário</description>
+  	<servlet-class>servicos.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
   	<servlet-name>LoginServlet</servlet-name>
   	<display-name>LoginServlet</display-name>
   	<description>Trata os dados submetidos pelo usuário</description>
@@ -22,5 +28,9 @@
   <servlet-mapping>
   	<servlet-name>LoginServlet</servlet-name>
   	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/sair</url-pattern>
   </servlet-mapping>
 </web-app>
